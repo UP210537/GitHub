@@ -32,5 +32,5 @@ int main (int argc, char const * argv [])
         cout <<numero << "\t";
         numero = numero - 1;
     }
-    return 0
+    return 0;
 }
