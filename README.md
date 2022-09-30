@@ -1,16 +1,21 @@
 # Contenido del repositorio y comandos
 
-<center> Hola.  
+<center>  
 
-Bienvenido a Programación.
+Bienvenido a Programación  
+Alumna: Nelly Esther Espinoza Huerta  
 
 > ### ***Módulos de la materia***
 ___  
 </center>
 
 * *Unidad 1.* Conociendo las estructuras de control.
-* *Unidad 2.* Realizando programas.
+* *Unidad 2.* Realizando programas de los problemas dados.
 * *Unidad 3.*
+<center>  
+
+> ### ***Formas de evaluar***
+</center>  
 
 ![TXT](https://i.pinimg.com/564x/b7/64/db/b764dbf91ac7459690e6b72389ecf1f5.jpg)  
 
