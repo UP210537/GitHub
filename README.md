@@ -98,10 +98,11 @@ int main()
 
     return 0;
 }
-```   
+```  
+
 <div align="center">   
 <img alt="TXT" src='U1/imagenes/TXT.jpg'
-width='290'  />
+width='290' />
 </div>   
 
 `https://www.youtube.com/watch?v=j-DA-Ty4sjE`  
