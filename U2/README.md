@@ -37,11 +37,33 @@ do
 } while (/* condition */);
 ```
 ![Taehyun2](https://i.pinimg.com/236x/f0/3f/c6/f03fc6b7e6a79c0f510ca2c0b390d3ef.jpg)  
-## *Demostración de los programas realizados en esta unidad*
+## *Demostración de los programas realizados en esta unidad*  
+### *Ejercicios realizados en clase:*
 E01_Tramos:  
 ![Tramos](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/Tramos.png)  
 E02_Abecedario:  
 ![Abecedario1](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/Abecedario1.png)  
 ![Abecedario2](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/Abecedario2.png)  
 E03_Tablas:  
-
+![Tablas1](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/Tablas1.png)  
+![Tablas2](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/Tablas2.png)  
+E04_CicloWhile:  
+![CicloWhile](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/CicloWhile.png)  
+E05_ForFor:  
+![ForFor1](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/ForFor1.png)  
+![ForFor2](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/ForFor2.png)  
+![ForFor3](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/ForFor3.png)  
+![ForFor4](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/ForFor4.png)  
+### *Ejercicios realizados de tarea:*  
+T01_Empleados:  
+![Empleados](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/Empleados.png)  
+T02_SalaDeJuegos:  
+![SalaDeJuegos](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/SalaDeJuegos.png)  
+T03_Piezzería:  
+![Pizzería](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/Pizzería.png)  
+T04_Temperaturas:  
+![Temperaturas](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/Temperaturas.png)  
+T05_Factura:  
+![Factura](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/Factura.png)  
+T06_BinarioADecimal:  
+![BinarioADecimal](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/BinarioADecimal.png)  
