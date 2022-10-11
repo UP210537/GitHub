@@ -46,6 +46,8 @@ E02_ParImpar:
 E03_TiposDeDatos:  
 ![TiposDeDatos](https://github.com/UP210537/UP210537_CPP/blob/master/U1/Imagenes/TiposDeDatos.png)  
 E04_Ciclos:  
-![HolaMundo](https://github.com/UP210537/UP210537_CPP/blob/master/U1/Imagenes/Ciclos.png)  
+![Ciclos](https://github.com/UP210537/UP210537_CPP/blob/master/U1/Imagenes/Ciclos.png)  
+
+### *Ejercicios realizados de tarea:*  
 T01_Edades:  
-![HolaMundo](https://github.com/UP210537/UP210537_CPP/blob/master/U1/Imagenes/Edades.png)  
+![Edades](https://github.com/UP210537/UP210537_CPP/blob/master/U1/Imagenes/Edades.png)  
