@@ -1,5 +1,10 @@
-// Objetivo: For anidados c:
-//              Tablas del 1 al 10
+/* 
+Alumna: Nelly Esther Espinoza Huerta.
+
+Objetivo: 
+            For anidados c:
+            Tablas del 1 al 10
+*/
 #include <iostream>
 using namespace std;
 

@@ -1,3 +1,13 @@
+/*
+Alumna: Nelly Esther Espinoza Huerta.
+
+Objetivo: 
+          Realizar un programa donde se realice la tabla del 5 en:
+                         For y For invetido
+                        While y While invertido
+                    Do While y Do While invertido
+*/
+
 #include <iostream>
 using namespace std;
 

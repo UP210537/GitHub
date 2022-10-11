@@ -1,12 +1,15 @@
 /* 
-Objetivo: Hacer un programa en el que se ingresen 6 temperaturas y determine el promedio, la mas baja y la mas alta.
+Alumna: Nelly Esther Espinoza Huerta.
+
+Objetivo: 
+            Hacer un programa en el que se ingresen 6 temperaturas y determine el promedio, la mas baja y la mas alta.
 */
 #include <iostream>
 using namespace std;
 
 int main ()
 {
-    int temperatura, mayor, menor, promedio;
+    int temperatura, mayor, menor;
     float sumatoria = 0;
     for (int i = 1; i <= 6; i++)
     {

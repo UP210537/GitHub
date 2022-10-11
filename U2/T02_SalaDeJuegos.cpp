@@ -1,7 +1,11 @@
-/* Objetivo: Preguntar al usuario la edad del cliente y mostrar el precio de la entrada
-                    Menor de 4 años: Entrada gratis
-                    Entre 4-18 años: $5
-                    Mayor a 18 años: $10 
+/* 
+Alumna: Nelly Esther Espinoza Huerta.
+
+Objetivo: 
+            Preguntar al usuario la edad del cliente y mostrar el precio de la entrada
+                            Menor de 4 años: Entrada gratis
+                            Entre 4-18 años: $5
+                            Mayor a 18 años: $10 
 */
 #include <iostream>
 using namespace std;

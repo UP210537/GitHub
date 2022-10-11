@@ -1,7 +1,10 @@
 /* 
-Objetivo: Preguntar al usuario tipo de pizza que quiere y, en función a su respuesta, mostrar el menú de los ingredientes disponibles
-Solo puede elegir un tipo de ingrediente 
-Mostrar al final el tipo de pizza y los ingredientes
+Alumna: Nelly Esther Espinoza Huerta.
+
+Objetivo: 
+            Preguntar al usuario tipo de pizza que quiere y, en función a su respuesta, mostrar el menú de los ingredientes disponibles
+            Solo puede elegir un tipo de ingrediente 
+            Mostrar al final el tipo de pizza y los ingredientes
 */
 #include <iostream>
 using namespace std;

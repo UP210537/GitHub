@@ -1,4 +1,6 @@
 /*
+    Alumna: Nelly Esther Espinoza Huerta.
+
     Los tramos impositivos para la declaración de la renta en un determinado país son los siguientes:
                         Renta                        Impuesto
                     Menos de $10,000                    5%

@@ -1,5 +1,9 @@
-//Objetivo: While mientras True
+/*
+Alumna: Nelly Esther Espinoza Huerta.
 
+Objetivo: 
+          While mientras True
+*/
 #include <iostream>
 using namespace std;
 

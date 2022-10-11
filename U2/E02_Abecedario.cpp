@@ -1,7 +1,10 @@
 /*
-    Objetivo: Imprimir el abecedario
-    Nombre: Nelly Esther Espinoza Huerta.
+Alumna: Nelly Esther Espinoza Huerta.
+
+Objetivo: 
+            Imprimir el abecedario
 */
+
 #include <iostream>
 using namespace std;
 

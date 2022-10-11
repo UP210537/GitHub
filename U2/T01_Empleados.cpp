@@ -1,4 +1,10 @@
-// Objetivo: Escribir un programa que lea la puntuación del usuario e indique su nivel de rendimiento así como la cantidad de dinero que recibirá el usuario.
+/* 
+Alumna: Nelly Esther Espinoza Huerta.
+
+Objetivo: 
+            Escribir un programa que lea la puntuación del usuario e indique su nivel de rendimiento así como la cantidad de dinero que recibirá el usuario.
+*/
+
 #include <iostream>
 using namespace std;
 
