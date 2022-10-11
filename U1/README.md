@@ -40,3 +40,12 @@ Es la palabra que se usa para ejecutar el bloque en caso que ninguna de las cond
 ## *Demostración de los programas realizados en esta unidad*  
 ### *Ejercicios realizados en clase:*  
 E01_HolaMundo:  
+![HolaMundo](https://github.com/UP210537/UP210537_CPP/blob/master/U1/Imagenes/HolaMundo.png)  
+E02_ParImpar:  
+![ParImpar](https://github.com/UP210537/UP210537_CPP/blob/master/U1/Imagenes/ParImpar.png)  
+E03_TiposDeDatos:  
+![TiposDeDatos](https://github.com/UP210537/UP210537_CPP/blob/master/U1/Imagenes/TiposDeDatos.png)  
+E04_Ciclos:  
+![HolaMundo](https://github.com/UP210537/UP210537_CPP/blob/master/U1/Imagenes/Ciclos.png)  
+T01_Edades:  
+![HolaMundo](https://github.com/UP210537/UP210537_CPP/blob/master/U1/Imagenes/Edades.png)  
