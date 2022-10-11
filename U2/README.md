@@ -59,7 +59,7 @@ T01_Empleados:
 ![Empleados](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/Empleados.png)  
 T02_SalaDeJuegos:  
 ![SalaDeJuegos](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/SalaDeJuegos.png)  
-T03_Piezzería:  
+T03_Pizzería:  
 ![Pizzería](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/Pizzería.png)  
 T04_Temperaturas:  
 ![Temperaturas](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/Temperaturas.png)  
