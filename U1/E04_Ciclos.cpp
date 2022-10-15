@@ -1,3 +1,9 @@
+/*
+Alumna: Nelly Esther Espinoza Huerta.
+
+Objetivo: 
+            Hacer una suma de los pares, imapres y una suma total de los numero del 1 al 10.
+*/
 #include <iostream>
 #include <stdio.h>
 using namespace std;

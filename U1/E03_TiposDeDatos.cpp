@@ -1,3 +1,9 @@
+/*
+Alumna: Nelly Esther Espinoza Huerta.
+
+Objetivo: 
+            Conocer los tipos de datos y mostrarlos al usuario.
+*/
 #include <iostream>
 #include <stdio.h>
 
