@@ -69,10 +69,71 @@ Es la palabra usada para salir del switch. Si no hay break en cada case, se ejec
 
 ### *Default:*  
 Es la palabra que se usa para ejecutar el bloque en caso que ninguna de las condiciones se cumpla. 
+![Taehyun3](https://i.pinimg.com/564x/d4/ef/3c/d4ef3cb210fb7c5eb293d67a8a7558b3.jpg)
 
-## *Demostración de los programas realizados en esta unidad*  
-### *Ejercicios realizados en clase:*
-E01_Tramos:  
+>## *Ejercicios realizados en esta unidad:*  
+### *En clase:*  
+***E01_Tramos:***  
+*Programa:* 
+``` 
+/*
+    Alumna: Nelly Esther Espinoza Huerta.
+
+    Los tramos impositivos para la declaración de la renta en un determinado país son los siguientes:
+                        Renta                        Impuesto
+                    Menos de $10,000                    5%
+                    Entre $10,000 y $20,000             15%
+                    Entre $20,000 y $35,000             20%
+                    Entre $35,000 y $60,000             30%
+                    Más de $60,000                      45%
+    
+    Escribir un programa que pregunte al usuario su renta anual y muestre por pantalla el impuesto que le corresponde.
+*/
+
+#include <iostream>
+#include <iomanip>
+#include <string>
+using namespace std;
+
+
+int main()
+{
+    int renta;
+    int impuesto;
+    cout << "introduzca su renta anual \n";
+    cin >> renta;
+    if (renta >=1)
+    {
+        if (renta < 10000)
+        {
+            impuesto = 5;
+        }
+        else if (renta >= 10000 && renta < 20000)
+        {
+            impuesto = 15;
+        }
+        else if (renta >= 20000 && renta < 35000)
+        {
+            impuesto = 20;
+        }
+        else if (renta >= 35000 && renta < 60000)
+        {
+            impuesto = 30;
+        }
+        else
+        {
+           impuesto = 45; 
+        }
+    }
+    else
+    {
+        printf("dato invalido \n");
+    }
+    cout << "El impuesto que le corresponde a su renta anual es de: " << impuesto << "%" <<endl;
+    return 0;
+}
+```  
+*Resultado:*  
 ![Tramo](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/Tramos.png)  
 E02_Abecedario:  
 ![Abecedario1](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/Abecedario1.png)  
