@@ -262,22 +262,355 @@ int main (int argc, char const *argv[])
 ![Tablas2](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/Tablas2.png)  
 
 ***E04_CicloWhile:***  
-![CicloWhile](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/CicloWhile.png)  
-E05_ForFor:  
+*Programa:* 
+```
+/*
+Alumna: Nelly Esther Espinoza Huerta.
+
+Objetivo: 
+          While mientras True
+*/
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n;
+    int i;
+    char opcion = 's';
+    printf ("Tabla de multiplicar \n");
+    while (opcion == 's')
+    {
+        // Entrada
+        printf ("Numero: ");
+        scanf ("%d", &n);
+        
+        // Proceso
+        i = 1;
+        do
+        {
+          printf ("%d x %d = %d \n", n, i, n * i);
+          i++;
+        } while (i <= 10);
+        
+        printf ("\nDesea otro <si/no> ");
+        scanf ("%s", &opcion);
+    }
+    printf ("\n...Hecho");
+    return 0;
+}
+```  
+*Resultado:*  
+![CicloWhile](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/CicloWhile.png) 
+
+***E05_ForFor:*** 
+*Programa:* 
+``` 
+/* 
+Alumna: Nelly Esther Espinoza Huerta.
+
+Objetivo: 
+            For anidados c:
+            Tablas del 1 al 10
+*/
+#include <iostream>
+using namespace std;
+
+int main()
+{
+   int r = 0;
+   for (int i = 1; i <= 10; i++)
+    {
+        for (int j = 1; j <= 10; j++)
+        {
+            r = i * j;
+            cout << i << " x " << j << " = " << r << endl;
+        }
+        cout << "\n";
+    }
+    return 0;
+}
+```  
+*Resultado:*  
 ![ForFor1](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/ForFor1.png)  
 ![ForFor2](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/ForFor2.png)  
 ![ForFor3](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/ForFor3.png)  
 ![ForFor4](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/ForFor4.png)  
-### *Ejercicios realizados de tarea:*  
-T01_Empleados:  
-![Empleados](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/Empleados.png)  
-T02_SalaDeJuegos:  
+
+### *De tarea:*  
+***T01_Empleados:***  
+*Programa:* 
+``` 
+/* 
+Alumna: Nelly Esther Espinoza Huerta.
+
+Objetivo: 
+            Escribir un programa que lea la puntuación del usuario e indique su nivel de rendimiento así como la cantidad de dinero que recibirá el usuario.
+*/
+
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+    double p;
+    int dinero = 2400;
+    int r;
+    cout << "Indique su puntuacion: ";
+    cin >> p;
+    if (p == 0.0 || p == 0.4 || p >= 0.6)
+    {
+        if (p == 0.0)
+    {
+        cout << "Inaceptable :(";
+        r = dinero * p;
+        cout << "\nDinero recibido: " << r;
+    }
+    else if (p == 0.4)
+    {
+        cout << "Aceptable";
+        r = dinero * p;
+        cout << "\nDinero recibido: " << r;
+    }
+    else if (p >= 0.6)
+    {
+        cout << "Meritorio :)";
+        r = dinero * p;
+        cout << "\nDinero recibido: " << r;
+    }
+    }
+    else 
+    {
+        cout << "Dato invalido :(";
+    }
+    return 0;
+}
+```  
+*Resultado:*  
+![Empleados](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/Empleados.png) 
+
+***T02_SalaDeJuegos:***  
+*Programa:* 
+``` 
+/* 
+Alumna: Nelly Esther Espinoza Huerta.
+
+Objetivo: 
+            Preguntar al usuario la edad del cliente y mostrar el precio de la entrada
+                            Menor de 4 años: Entrada gratis
+                            Entre 4-18 años: $5
+                            Mayor a 18 años: $10 
+*/
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+    int edad;
+    cout << "Ingrese su edad: ";
+    cin >> edad;
+    if (edad >= 0)
+    {
+        if (edad < 4)
+        {
+            cout << "Costo: Entrada gratis c:";
+        }
+        else if (edad >= 4 && edad < 18)
+        {
+            cout << "Costo: $5";
+        }
+        else 
+        {
+            cout << "Costo: $10";
+        }
+    }
+    else
+    {
+        cout << "Dato invalido :c";
+    }
+    return 0;
+}
+```  
+*Resultado:*  
 ![SalaDeJuegos](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/SalaDeJuegos.png)  
-T03_Pizzería:  
+
+***T03_Pizzería:***  
+*Programa:* 
+``` 
+/* 
+Alumna: Nelly Esther Espinoza Huerta.
+
+Objetivo: 
+            Preguntar al usuario tipo de pizza que quiere y, en función a su respuesta, mostrar el menú de los ingredientes disponibles
+            Solo puede elegir un tipo de ingrediente 
+            Mostrar al final el tipo de pizza y los ingredientes
+*/
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+    string pizza;
+    string ingrediente;
+    cout << "Pizzeria Bella Napoli";
+    cout << "\nQue tipo de pizza desea? <Vegetariana/Normal>\n";
+    cin >> pizza;
+    if (pizza == "Vegetariana" || pizza == "Normal")
+    {
+        cout << "Solo se permite un ingrediente (la mozzarella y el tomate vienen ya incluidos)\n";
+        if (pizza == "Vegetariana")
+        {
+            cout << "Ingredientes disponibles:\n" << "Pimiento\n" << "Tofu\n" << "Ingrese el nombre del ingrediente que desea: ";
+            cin >> ingrediente;
+        }
+        else if (pizza == "Normal")
+        {
+            cout << "Ingredientes disponibles:\n" << "Peperoni\n" << "Jamon\n" << "Salmon\n" << "Ingrese el nombre del ingrediente que desea: ";
+            cin >> ingrediente;
+        }
+    }
+    if (ingrediente == "Pimiento" || ingrediente == "Tofu" || ingrediente == "Peperoni" || ingrediente == "Jamon" || ingrediente == "Salmon")
+    {
+        cout << "Tipo de pizza: " << pizza;
+        cout << "\nIngredientes: " << ingrediente << ", Mozzarella y Tomate" << "\nGracias por su visita! En un momento estara lista :)";                
+    }
+    else
+    {
+        cout << "Dato invalido";
+    }
+    return 0;
+}
+```  
+*Resultado:*  
 ![Pizzería](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/Pizzería.png)  
-T04_Temperaturas:  
+
+***T04_Temperaturas:***  
+*Programa:* 
+``` 
+/* 
+Alumna: Nelly Esther Espinoza Huerta.
+
+Objetivo: 
+            Hacer un programa en el que se ingresen 6 temperaturas y determine el promedio, la mas baja y la mas alta.
+*/
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+    int temperatura, mayor, menor;
+    float sumatoria = 0;
+    for (int i = 1; i <= 6; i++)
+    {
+        cout << "Ingrese la temperatura numero " << i << ": " << endl;
+        cin >> temperatura;
+        sumatoria = sumatoria + temperatura;
+        if (i == 1)
+        {
+            mayor = temperatura;
+            menor = temperatura;
+        }
+        else
+        {
+            if (temperatura > mayor)
+            {
+                mayor = temperatura;
+            }
+            else
+            {
+                if ( temperatura < menor)
+                {
+                    menor = temperatura;
+                }
+            }
+        }
+    }
+    cout << "El promedio de las seis temperaturas es: " << (sumatoria) / 6;
+    cout << "\nLa temperatura mas elevada fue: " << mayor;
+    cout << "\nLa temperatura mas baja fue: " << menor;
+    return 0;
+}
+```  
+*Resultado:*  
 ![Temperaturas](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/Temperaturas.png)  
-T05_Factura:  
+
+***T05_Factura:***  
+*Programa:* 
+``` 
+/* 
+Alumna: Nelly Esther Espinoza Huerta.
+
+Objetivo: 
+            Hacer un programa que lea indefinidamente cantidades de productos y su precio, y al final indique el total de la factura.
+            Para saber que se ha terminado con la compra, se deberá ingresar un 0 en la cantidad.
+*/
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int c = 0;
+    int p = 0;
+    int t = 0;
+    int s = 0;
+
+    do
+    {
+        cout << "Cantidad de productos \n";
+        cin >> c;
+        cout << "Precio por unidad \n";
+        cin >> p;
+
+        s = c * p;
+
+        t = t + s;
+
+    } while ( c != 0);
+
+    cout << "El total a pagar es: " << t;
+    cout << "\nvuelva pronto :D";
+    
+    return 0;
+
+}
+```  
+*Resultado:*  
 ![Factura](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/Factura.png)  
-T06_BinarioADecimal:  
+
+***T06_BinarioADecimal:***  
+*Programa:* 
+``` 
+/*
+Alumna: Nelly Esther Espinoza Huerta.
+
+Objetivo:
+            Realizar un programa que haga la conversión de binario a decimal, solo para numeros mayores a 0.
+            El resultado puede ser mostrado mediante una variable entera o en un conjunto de caracteres.
+
+*/
+#include <iostream>
+using namespace std;
+
+int main(int argc, char const *argv[])
+{
+    int binario, resultado, demas=0;
+    int digito[8];
+    cout << "Introduce el numero en binario: " << endl;
+    cin >> binario;
+    for (int i = 0; i < 8; i++)
+    {
+    digito[i] = binario%10;
+    binario/=10;
+    }
+    for (int i = 7; i >= 0; i--)
+    {
+        resultado = (demas*2) + digito[i];
+        demas = resultado;
+    }
+    cout << "El numero en decimal es: " << resultado << endl;
+    return 0;
+}
+```  
+*Resultado:*  
 ![BinarioADecimal](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/BinarioADecimal.png)  
