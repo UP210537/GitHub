@@ -2,11 +2,24 @@
 >## *Introducción a la programación.*  
 ![Yeonjun](https://i.pinimg.com/564x/9e/f7/07/9ef70774832c5225b36a6f0775e93460.jpg)  
 
-La programación es el proceso de crear un conjunto de instrucciones que le dicen a una computadora como realizar algún tipo de tarea. Pero no solo la acción de escribir un código para que la computadora o el software lo ejecute. Incluye, además, todas las tareas necesarias para que el código funcione correctamente y cumpla el objetivo para el cual se escribió.
+La programación es el proceso de crear un conjunto de instrucciones que le dicen a una computadora como realizar algún tipo de tarea. Pero no solo la acción de escribir un código para que la computadora o el software lo ejecute. Incluye, además, todas las tareas necesarias para que el código funcione correctamente y cumpla el objetivo para el cual se escribió.  
+En la actualidad, la noción de programación se encuentra muy asociada a la creación de aplicaciones de informática y videojuegos. En este sentido, es el proceso por el cual una persona desarrolla un programa, valiéndose de una herramienta que le permita escribir el código (el cual puede estar en uno o varios lenguajes, como C++, Java y Python, entre muchos otros) y de otra que sea capaz de “traducirlo” a lo que se conoce como lenguaje de máquina, que puede "comprender" el microprocesador.
 
 ![Yeonjun2](https://i.pinimg.com/564x/2b/c1/0d/2bc10d343d59f056c0c21665bd3fe5fd.jpg)  
  
-En la actualidad, la noción de programación se encuentra muy asociada a la creación de aplicaciones de informática y videojuegos. En este sentido, es el proceso por el cual una persona desarrolla un programa, valiéndose de una herramienta que le permita escribir el código (el cual puede estar en uno o varios lenguajes, como C++, Java y Python, entre muchos otros) y de otra que sea capaz de “traducirlo” a lo que se conoce como lenguaje de máquina, que puede "comprender" el microprocesador.
+
+<center>  
+
+> ### ***Formas de evaluar la U1***
+| Valor del reactivo | Características a cumplir |  
+| ------------------ | ------------------------- |
+|       25%          | **Contenido.** Los ejercicios contenidos en la unidad 1, se encuentran numerados llevando un orden consecutivo.   |  
+|       25%          | **README.** Presenta los resultados de los ejercicios realizados por medio de imágenes.                                       |  
+|       25%          | **README.** Se presenta un orden en cada ejercicio, resaltando el objetivo del ejercicio.                                      |  
+|       25%          | **README.** El archivo README presenta las etapas: Entrada, Proceso, Salida de cada ejercicio.                                      |  
+
+</center>  
+
 
 ![Yeonjun3](https://i.pinimg.com/564x/c6/15/e1/c615e13a375e1d466796cea4e79f2973.jpg)  
 
