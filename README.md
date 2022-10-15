@@ -17,6 +17,14 @@ ___
 <center>  
 
 > ### ***Formas de evaluar***
+| Valor del reactivo | Características a cumplir |  
+| ------------------ | ------------------------- |
+|       25%          | **Contenido.** Presenta el contenido de las unidades en su archivo README   |  
+|       25%          | **Comandos básicos Github.** Presenta los comandos básicos para subir y bajar información del repositorio.                     |  
+|       20%          | **Carpetas.** Las carpetas se encuentran organizadas por unidades. Cada carpeta contiene su README.                              |  
+|       10%          | **Imágenes.** El archivo README presenta alguna imagen.                   |  
+|       10%          | **Listas o tablas.** El archivo README presenta listas o tablas en su contenido                                        |  
+|       10%          | **Orden.** El archivo README presenta un orden en su contenido                |  
 </center>  
 
 ![TXT](https://i.pinimg.com/564x/b7/64/db/b764dbf91ac7459690e6b72389ecf1f5.jpg)  
@@ -24,7 +32,7 @@ ___
 
 <CENTER>   
 
-> ### *Comandos que se pueden utilizar:*  
+> ### *Comandos que se pueden utilizar para editar los README:*  
 </CENTER>   
 
 **Texto en negritas**  
@@ -35,11 +43,6 @@ ___
 1. Enlistado
 1. De
 1. Elementos
-<ol>
-<li>Enlistado</li>
-<li>De</li>
-<li>Elementos</li>
-</ol>  
 
 * Enlistado
 * Sin
@@ -54,25 +57,7 @@ ___
 | Texto     | Texto    |  
 
 ```
-Objetivo: Definir la etapa de la persona
-        [1..150] Validacion
-        [ 1..30] 1ra Edad
-        [31..60] 2da Edad
-        [61..90] 3ra Edad
-        [91..  ] Horas Extras
-
-
-#include <iostream>
-#include <iomanip>
-#include <string>
-using namespace std;
-
-
-int main()
-{
-    int e;
-    cout << "dime tu edad \n";
-    cin >>e;
+*Código parte 1*
 ``` 
 <center>   
 
@@ -81,30 +66,7 @@ int main()
 </center>   
 
 ```
-    if (e >= 1 && e <= 150)
-    {
-        if (e <= 30)
-        {
-            printf("1er edad \n");
-        }
-        else if (e >= 31 && e <= 60)
-        {
-            printf("2da edad \n");
-        }
-        else if (e >= 61 && e <= 90)
-        {
-            printf("3er edad \n");
-        }
-        else
-        {
-           printf("Horas Extras \n"); 
-        }
-    }
-    else
-        printf("dato invalido \n");
-
-    return 0;
-}
+    *Código parte 2*
 ```  
 
 <div align="center">   
@@ -120,4 +82,13 @@ https://www.youtube.com/watch?v=j-DA-Ty4sjE
 
 <https://www.youtube.com/watch?v=j-DA-Ty4sjE> "Mi rola"  
 
-<a href="https://www.youtube.com/watch?v=j-DA-Ty4sjE">https://www.youtube.com/watch?v=j-DA-Ty4sjE</a> (Es el código html)
+<a href="https://www.youtube.com/watch?v=j-DA-Ty4sjE">https://www.youtube.com/watch?v=j-DA-Ty4sjE</a> (Es el código html)  
+
+> ### *Comandos que se pueden utilizar para subir y bajar información del respositorio:*
+* git status   	
+* git add .	
+* git commit -m	
+* git push	
+* git clone<>	
+* git pull	
+* git merge	
