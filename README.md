@@ -69,11 +69,6 @@ ___
     *Código parte 2*
 ```  
 
-<div align="center">   
-<img alt="TXT" src='U1/imagenes/TXT.jpg'
-width='300' />
-</div>   
-
 `https://www.youtube.com/watch?v=j-DA-Ty4sjE`  
 
 https://www.youtube.com/watch?v=j-DA-Ty4sjE  
