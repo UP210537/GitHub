@@ -40,7 +40,7 @@ do
 ## *Demostración de los programas realizados en esta unidad*  
 ### *Ejercicios realizados en clase:*
 E01_Tramos:  
-![Tramos](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/Tramos.png)  
+![Tramo](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/Tramos.png)  
 E02_Abecedario:  
 ![Abecedario1](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/Abecedario1.png)  
 ![Abecedario2](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/Abecedario2.png)  
