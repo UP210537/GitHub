@@ -20,11 +20,11 @@ ___
 | Valor del reactivo | Características a cumplir |  
 | ------------------ | ------------------------- |
 |       25%          | **Contenido.** Presenta el contenido de las unidades en su archivo README   |  
-|       25%          | **Comandos básicos Github.** Presenta los comandos básicos para subir y bajar información del repositorio.                     |  
-|       20%          | **Carpetas.** Las carpetas se encuentran organizadas por unidades. Cada carpeta contiene su README.                              |  
-|       10%          | **Imágenes.** El archivo README presenta alguna imagen.                   |  
+|       25%          | **Comandos básicos Github.** Presenta los comandos básicos para subir y bajar información del repositorio.                                     |  
+|       20%          | **Carpetas.** Las carpetas se encuentran organizadas por unidades. Cada carpeta contiene su README.                                          |  
+|       10%          | **Imágenes.** El archivo README presenta alguna imagen.                     |  
 |       10%          | **Listas o tablas.** El archivo README presenta listas o tablas en su contenido                                        |  
-|       10%          | **Orden.** El archivo README presenta un orden en su contenido.   |  
+|       10%          | **Orden.** El archivo README presenta un orden en su contenido.             |  
 </center>  
 
 ![TXT](https://i.pinimg.com/564x/b7/64/db/b764dbf91ac7459690e6b72389ecf1f5.jpg)  
