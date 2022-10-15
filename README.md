@@ -9,9 +9,11 @@ Alumna: Nelly Esther Espinoza Huerta
 ___  
 </center>
 
-* *Unidad 1.* Conociendo las estructuras de control.
-* *Unidad 2.* Realizando programas de los problemas dados.
-* *Unidad 3.*
+* *Unidad 1.* Introducción a la programación.
+* *Unidad 2.* Conociendo las estructuras de control y los ciclos.
+* *Unidad 3.* Conociendo las funciones.
+* *Unidad 4.* Conociendo los archivos y las matrices.
+
 <center>  
 
 > ### ***Formas de evaluar***
