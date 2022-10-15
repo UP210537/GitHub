@@ -15,6 +15,12 @@ En la actualidad, la noción de programación se encuentra muy asociada a la cre
 ***E01_HolaMundo:***   
 *Programa:* 
 ```
+/*
+Alumna: Nelly Esther Espinoza Huerta.
+
+Objetivo: 
+            Mostrar al usuario la frase "Hola Mundo".
+*/
 #include <iostream>
 using namespace std;
 int main(int argc, char const *argv[])
@@ -29,6 +35,12 @@ int main(int argc, char const *argv[])
 ***E02_ParImpar:***  
 *Programa:* 
 ```
+/*
+Alumna: Nelly Esther Espinoza Huerta.
+
+Objetivo: 
+            Mostrar al usuario la frase "Par o Impar".
+*/
 #include <iostream>
 using namespace std;
 int main(int argc, char const *argv[])
@@ -43,6 +55,12 @@ int main(int argc, char const *argv[])
 ***E03_TiposDeDatos:***  
 *Programa:* 
 ``` 
+/*
+Alumna: Nelly Esther Espinoza Huerta.
+
+Objetivo: 
+            Conocer los tipos de datos y mostrarlos al usuario.
+*/
 #include <iostream>
 #include <stdio.h>
 
@@ -70,6 +88,12 @@ int main ()
 ***E04_Ciclos:***  
 *Programa:* 
 ``` 
+/*
+Alumna: Nelly Esther Espinoza Huerta.
+
+Objetivo: 
+            Hacer una suma de los pares, imapres y una suma total de los numero del 1 al 10.
+*/
 #include <iostream>
 #include <stdio.h>
 using namespace std;
