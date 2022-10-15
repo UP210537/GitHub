@@ -26,7 +26,7 @@ int main(int argc, char const *argv[])
 *Resultado:*  
 ![HolaMundo](https://github.com/UP210537/UP210537_CPP/blob/master/U1/Imagenes/HolaMundo.png)  
 
-E02_ParImpar:  
+***E02_ParImpar:***  
 *Programa:* 
 ```
 #include <iostream>
@@ -40,7 +40,7 @@ int main(int argc, char const *argv[])
 *Resultado:*  
 ![ParImpar](https://github.com/UP210537/UP210537_CPP/blob/master/U1/Imagenes/ParImpar.png)  
 
-E03_TiposDeDatos: 
+***E03_TiposDeDatos:***  
 *Programa:* 
 ``` 
 #include <iostream>
@@ -67,7 +67,7 @@ int main ()
 *Resultado:*  
 ![TiposDeDatos](https://github.com/UP210537/UP210537_CPP/blob/master/U1/Imagenes/TiposDeDatos.png)  
 
-E04_Ciclos:  
+***E04_Ciclos:***  
 *Programa:* 
 ``` 
 #include <iostream>
@@ -101,7 +101,7 @@ int main()
 ![Ciclos](https://github.com/UP210537/UP210537_CPP/blob/master/U1/Imagenes/Ciclos.png)  
 
 ### *De tarea:*  
-T01_Edades:  
+***T01_Edades:***  
 *Programa:* 
 ``` 
 /*
