@@ -1,5 +1,5 @@
 # Unidad 1
-### *Introducción a la programación.*  
+>## *Introducción a la programación.*  
 ![Yeonjun](https://i.pinimg.com/564x/9e/f7/07/9ef70774832c5225b36a6f0775e93460.jpg)  
 
 La programación es el proceso de crear un conjunto de instrucciones que le dicen a una computadora como realizar algún tipo de tarea. Pero no solo la acción de escribir un código para que la computadora o el software lo ejecute. Incluye, además, todas las tareas necesarias para que el código funcione correctamente y cumpla el objetivo para el cual se escribió.
@@ -10,7 +10,7 @@ En la actualidad, la noción de programación se encuentra muy asociada a la cre
 
 ![Yeonjun3](https://i.pinimg.com/564x/c6/15/e1/c615e13a375e1d466796cea4e79f2973.jpg)  
 
-## *Ejercicios realizados en esta unidad:*  
+>## *Ejercicios realizados en esta unidad:*  
 ### *En clase:*  
 ***E01_HolaMundo:***   
 *Programa:* 
