@@ -135,13 +135,133 @@ int main()
 ```  
 *Resultado:*  
 ![Tramo](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/Tramos.png)  
-E02_Abecedario:  
+
+***E02_Abecedario:***  
+*Programa:* 
+```
+/*
+Alumna: Nelly Esther Espinoza Huerta.
+
+Objetivo: 
+            Imprimir el abecedario
+*/
+
+#include <iostream>
+using namespace std;
+
+int main (int argc, char const * argv [])
+{
+    char letra= 'z';
+    int numero =1;
+    cout << "De la Z a la A \n";
+    for (int i =0; i < 26; i++)
+    {
+        cout <<letra << "\n";
+        letra = letra - 1;
+    }
+    cout << "De la A a la Z \n";
+    letra='A';
+    for (int i=0; i <26; i++)
+    {
+        cout <<letra << "\n";
+        letra = letra +1;
+    }
+    cout << "Del 1 al 10 \n";
+    numero=1;
+    for (int i=0; i <10; i++)
+    {
+        cout <<numero << "\n";
+        numero = numero + 1;
+    }
+    cout << "Del 10 al 1 \n";
+    numero=10;
+    for (int i=0; i <10; i++)
+    {
+        cout <<numero << "\n";
+        numero = numero - 1;
+    }
+    return 0;
+}
+```  
+*Resultado:*  
 ![Abecedario1](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/Abecedario1.png)  
 ![Abecedario2](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/Abecedario2.png)  
-E03_Tablas:  
+
+***E03_Tablas:***  
+*Programa:* 
+```
+/*
+Alumna: Nelly Esther Espinoza Huerta.
+
+Objetivo: 
+          Realizar un programa donde se realice la tabla del 5 en:
+                         For y For invetido
+                        While y While invertido
+                    Do While y Do While invertido
+*/
+
+#include <iostream>
+using namespace std;
+
+int main (int argc, char const *argv[])
+{
+    int n = 5;
+    int r = 0;
+    int c = 1;
+    cout << "Tabla del cinco con:";
+    cout << "\n" << "For" << "\n";
+    for (int i = 1; i <= 10; i++)
+    {
+        r = n * i;
+        cout << n << " x " << i << " = " << r << endl; //endl es para avanzar la línea
+    }
+    cout << "\n" << "For invertido" << "\n";
+    for (int i = 10; i >= 1; i --)
+    {
+        r = n * i;
+        cout << n << " x " << i << " = " << r << endl;
+    }
+    cout << "\n" << "While" << "\n";
+    while (c <= 10)
+    {
+        r = n * c;
+        cout << n << " x " << c << " = " << r << endl;
+        c++;
+    }
+    cout << "\n" << "While invertido" << "\n";
+    c = 10;
+    while (c >= 1)
+    {
+        r = n * c;
+        cout << n << " x " << c << " = " << r << endl;
+        c--;
+    }
+    cout << "\n" << "Do While" << "\n";
+    c = 1;
+    do
+    {
+        r = n * c;
+        cout << n << " x " << c << " = " << r << endl;
+        c++;
+    }
+    while (c <= 10);
+    cout << "\n" << "Do While invertido" << "\n";
+    c = 10;
+    do
+    {
+        r = n * c;
+        cout << n << " x " << c << " = " << r << endl;
+        c--;
+    }
+    while (c >= 1);
+    return 0;
+}
+```  
+*Resultado:*  
 ![Tablas1](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/Tablas1.png)  
 ![Tablas2](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/Tablas2.png)  
-E04_CicloWhile:  
+
+***E04_CicloWhile:***  
 ![CicloWhile](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/CicloWhile.png)  
 E05_ForFor:  
 ![ForFor1](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/ForFor1.png)  
