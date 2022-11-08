@@ -23,8 +23,8 @@ int main()
         cout << texto[i] << " ";
         i++;
     }
-    cout << "Vocales" << Vocal << endl;
-
+    cout << "\nVocales: " << Vocal << endl;
+    
     for (int i = 0; i < 30; i++)
     {
         cout << texto[i] << " ";

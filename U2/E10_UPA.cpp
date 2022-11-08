@@ -1,3 +1,10 @@
+/*
+Alumna: Nelly Esther Espinoza Huerta.
+
+Objetivo:
+            Mostrar al usuario la palabra "UPA" de cadenas.
+*/
+
 #include <iostream>
 using namespace std;
 int main ()

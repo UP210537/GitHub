@@ -1,9 +1,15 @@
+/*
+Alumna: Nelly Esther Espinoza Huerta.
+
+Objetivo:
+            Implementar el Switch Case en operaciones basicas.
+*/
 #include <iostream>
 using namespace std;
 
 int main()
 {
-    int a = 6, b = 0;
+    int a = 6, b = 2;
     double r;
     int opcion = 4;
 
@@ -17,12 +23,18 @@ int main()
         {
         case 1:
             cout << "Suma" << endl;
+            r = a + b;
+            cout << r << endl;
             break;
         case 2:
             cout << "Resta" << endl;
+            r = a - b;
+            cout << r << endl;
             break;
         case 3:
             cout << "Multiplicacion" << endl;
+            r = a * b;
+            cout << r << endl;
             break;
         case 4:
             cout << "Division" << endl;

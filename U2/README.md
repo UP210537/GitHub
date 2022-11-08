@@ -72,7 +72,7 @@ Es la palabra que se usa para ejecutar el bloque en caso que ninguna de las cond
 ![Taehyun3](https://i.pinimg.com/564x/d4/ef/3c/d4ef3cb210fb7c5eb293d67a8a7558b3.jpg)
 
 >## *Ejercicios realizados en esta unidad:*  
-### *En clase:*  
+## *En clase:*  
 ***E01_Tramos:***  
 *Programa:* 
 ``` 
@@ -337,7 +337,229 @@ int main()
 ![ForFor3](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/ForFor3.png)  
 ![ForFor4](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/ForFor4.png)  
 
-### *De tarea:*  
+***E06_BreakContinue:***  
+*Programa:* 
+``` 
+/*
+Alumna: Nelly Esther Espinoza Huerta.
+
+Objetivo:
+            Saber utilizar el Break Continue.
+*/
+#include <iostream>
+using namespace std;
+
+int main(int argc, char const *argv[])
+{
+    int n = 5;
+    for (int i = 0; i <= 10; i++){
+        if (i == 6)
+        {
+            break;
+        }
+        else
+        { 
+            cout << i << endl;
+        }
+        cout << "numero " << i << endl;
+    }
+    cout << "...Hecho \n" << endl;
+    return 0;
+}
+```  
+*Resultado:*  
+![BreakContinue](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/BreakContinue.png)  
+
+***E07_Sumatoria:***  
+*Programa:* 
+``` 
+/*
+Alumna: Nelly Esther Espinoza Huerta.
+
+Objetivo:
+            Realizar la sumatoria de los numeros del 1 al 10.
+*/
+#include <iostream>
+using namespace std;
+
+int main(int argc, char const *argv[])
+{
+    int n=1;
+    int total=0;
+    do
+    {
+        total+=n;
+        n++;
+    }while (n<=10);
+    {
+        cout<<"La sumatoria de los numeros del 1 al 10 es: "<<total<<endl;
+    }
+    
+    return 0;
+}
+```  
+*Resultado:*   
+![Sumatoria](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/Sumatoria.png)
+
+***E08_DecimalABinario:***  
+*Programa:* 
+``` 
+/*
+Alumna: Nelly Esther Espinoza Huerta.
+
+Objetivo:
+            Convertir un numero decimal a binario.
+*/
+
+#include <iostream>
+#include <stdlib.h>
+
+using namespace std;
+
+int main()
+{
+    int decimal;
+    int total;
+    float residuo;
+    string binario;
+
+    cout << "Ingresa el numero decimal: " << endl;
+    cin >> decimal;
+    do
+    {
+        residuo = decimal % 2;
+        decimal = decimal / 2;
+        if (residuo == 0)
+        {
+            binario = '0' + binario;
+        }
+        else
+        {
+            binario = '1' +  binario;
+        }
+        total = total + 1;
+
+    } while (total <= 7);
+    cout << binario << endl;
+    return 0;
+}
+```  
+*Resultado:*   
+![DecimalABinario](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/DecimalABinario.png)
+
+***E09_Factorial:***  
+*Programa:* 
+``` 
+
+```  
+*Resultado:*   
+![Factorial](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/Factorial.png)  
+
+***E10_UPA:***  
+*Programa:* 
+``` 
+/*
+Alumna: Nelly Esther Espinoza Huerta.
+
+Objetivo:
+            Mostrar al usuario la palabra "UPA" por medio de cadenas.
+*/
+
+#include <iostream>
+using namespace std;
+int main ()
+{
+    string cadena;
+    cadena = cadena + "U";
+    cadena = cadena + "P";
+    cadena = cadena + "A";
+    cout << cadena << endl; //UP
+    return 0;
+}
+```  
+*Resultado:*   
+![UPA](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/UPA.png)  
+
+***E11_Cadenas:***  
+*Programa:* 
+``` 
+
+```  
+*Resultado:*   
+![Cadenas](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/Cadenas.png)  
+
+***E12_SwitchCase:***  
+*Programa:* 
+``` 
+/*
+Alumna: Nelly Esther Espinoza Huerta.
+
+Objetivo:
+            Implementar el Switch Case en operaciones basicas.
+*/
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a = 6, b = 0;
+    double r;
+    int opcion = 4;
+
+    cout << "[1] Suma" << endl << "[2] Resta" << endl << "[3] Multiplicacion" << endl << "[4] Division" << endl;
+    cout << "Ingrese un cero si desea salirse" << endl;
+    cout << "Que operacion desea realizar: ";
+    cin >> opcion;
+    while (opcion != 0)
+    {
+        switch (opcion)
+        {
+        case 1:
+            cout << "Suma" << endl;
+            break;
+        case 2:
+            cout << "Resta" << endl;
+            break;
+        case 3:
+            cout << "Multiplicacion" << endl;
+            break;
+        case 4:
+            cout << "Division" << endl;
+            if (b != 0)
+            {
+                r = a / b;
+                cout << r << endl;
+            }
+            else
+            {
+                cout << "Division invalida" << endl;
+            }
+            break;
+        default:
+            cout << "Opcion Invalida" << endl;
+            break;
+        }
+    cout << endl;
+    cout << "[1] Suma" << endl << "[2] Resta" << endl << "[3] Multiplicacion" << endl << "[4] Division" << endl;
+    cout << "Ingrese un cero si desea salirse" << endl;
+    cout << "Que operacion desea realizar: ";
+    cin >> opcion;
+    }
+    return 0;
+}
+```  
+*Resultado:*   
+![SwitchCase](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/SwitchCase.png)  
+
+***E13_Funciones:***  
+*Programa:* 
+``` 
+
+```  
+*Resultado:*   
+![Funciones](https://github.com/UP210537/UP210537_CPP/blob/master/U2/Imagenes/Funciones.png)  
+
+## *De tarea:*  
 ***T01_Empleados:***  
 *Programa:* 
 ``` 
