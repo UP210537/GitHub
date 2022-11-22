@@ -214,7 +214,47 @@ int main()
 ***T05_Currencybreakdown:***  
 *Syllabus:* 
 ```
+/*
+Alumna: Nelly Esther Espinoza Huerta.
 
+Objetivo:
+            Realizar el desglose para dar un cambio en numero.
+*/
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main()
+{
+    int cantidad = 3699;
+    int a[10];
+    int monedas[] = {1000, 500, 200, 100, 50, 20, 10, 5, 2, 1};
+    int total = 0;
+
+    total = cantidad;
+
+    for (int i = 0; i <= 10; i++)
+    {
+        if (cantidad >= monedas[i])
+        {
+            a[i] = 0;
+
+            while (cantidad >= monedas[i])
+            {
+                cout << cantidad / monedas[i] << " de " << monedas[i] << endl;
+
+                cantidad = cantidad % monedas[i];
+
+                a[i]++;
+            }
+
+        }
+
+    }
+
+    cout << "Total: " << total << endl;
+
+    return 0;
+}
 ```
 *Result:*  
 ![DesgloseMoneda](https://github.com/UP210537/UP210537_CPP/blob/master/U3/Imagenes/DesgloseMoneda.png)
@@ -222,7 +262,39 @@ int main()
 ***T06_ArabictoRomanNumerals:***  
 *Syllabus:* 
 ```
+/*
+Alumna: Nelly Esther Espinoza Huerta.
 
+Objetivo:
+            Convertir de numeros arabigos a romanos con vectores.
+*/
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n = 2022;
+    int v;
+    int romanos[]={1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1};
+    string NR[]={"M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
+    string numero = "";
+    int i = 0;
+    while(n > 0)
+    {
+        if (n >= romanos[i])
+        {
+            v = n/romanos[i];
+            n = n%romanos[i];
+            for (int j = 0; j < v; j++)
+            {
+                numero = numero + NR[i];
+            }
+        }
+        i++;
+    }
+    cout << numero;
+    return 0;
+}
 ```
 *Result:*  
 ![AtoR](https://github.com/UP210537/UP210537_CPP/blob/master/U3/Imagenes/AtoR.png)
