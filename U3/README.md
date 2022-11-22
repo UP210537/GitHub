@@ -211,7 +211,7 @@ int main()
 *Result:*  
 ![DesviacionEstandar](https://github.com/UP210537/UP210537_CPP/blob/master/U3/Imagenes/DesviacionEstandar.png)
 
-***T05_Currencybreakdown:***  
+***T05_CurrencyBreakdown:***  
 *Syllabus:* 
 ```
 /*
@@ -259,7 +259,7 @@ int main()
 *Result:*  
 ![DesgloseMoneda](https://github.com/UP210537/UP210537_CPP/blob/master/U3/Imagenes/DesgloseMoneda.png)
 
-***T06_ArabictoRomanNumerals:***  
+***T06_ArabicToRomanNumerals:***  
 *Syllabus:* 
 ```
 /*
